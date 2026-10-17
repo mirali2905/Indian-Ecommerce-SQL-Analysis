@@ -95,9 +95,12 @@ The analysis addresses the following questions:
 
 | File | Description |
 |---|---|
-| `ecommerce_analysis.sql` | 12 SQL queries covering business performance and advanced analysis |
-| `business_insights.md` | Detailed business findings and recommendations |
-| `indian_ecommerce_sales.csv` | Cleaned transactional dataset |
+| `database_setup.sql` | Creates the database and sales table and includes validation queries. |
+| `ecommerce_analysis.sql` | Contains 12 SQL queries covering business performance and advanced analysis. |
+| `indian_ecommerce_sales.csv` | Cleaned dataset containing 5,000 e-commerce orders. |
+| `business_insights.md` | Detailed business findings, interpretations and recommendations. |
+| `README.md` | Project overview, objectives, technologies, key findings and execution instructions. |
+
 
 ## How to Run This Project
 
