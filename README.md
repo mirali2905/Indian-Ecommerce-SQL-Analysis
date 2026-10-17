@@ -101,11 +101,12 @@ The analysis addresses the following questions:
 
 ## How to Run This Project
 
-1. Install MySQL or use XAMPP with phpMyAdmin.
-2. Create a database named `indian_ecommerce`.
-3. Create the `sales` table using the dataset schema.
-4. Import the cleaned CSV dataset into the table.
-5. Open `ecommerce_analysis.sql` and execute the queries.
+1. Install MySQL/MariaDB or XAMPP with phpMyAdmin.
+2. Execute `database_setup.sql` to create the database and sales table.
+3. Import `indian_ecommerce_sales.csv` into the `sales` table using phpMyAdmin, ensuring the header row is not imported as data.
+4. Verify that the table contains 5,000 orders and total revenue of ₹23,08,87,933.
+5. Execute `ecommerce_analysis.sql`.
+6. Refer to `business_insights.md` for detailed findings and recommendations.
 
 The project was developed using MySQL-compatible SQL and tested through phpMyAdmin.
 
